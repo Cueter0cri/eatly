@@ -1,0 +1,78 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url();
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url();
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    background-color: #ffffff;
+    max-width: 1268px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header__inner{
+    padding-top: 40px;
+    display: flex;
+    gap: 40px;
+}
+
+.menu__list{
+    display: flex;
+    gap: 20px;
+}
+
+.menu__list-link{
+    color: #606060;
+}
+
+.auth__buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.auth-buttons .login {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.auth__buttons .signup {
+    text-decoration: none;
+    background-color: #6a4dad;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.auth-buttons .signup:hover {
+    background-color: #5a3ea8;
+}
