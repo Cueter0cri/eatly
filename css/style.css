@@ -10,12 +10,12 @@ html{
 
 @font-face {
     font-family: 'Poppins';
-    src: url();
+    src: url(/fonts/Poppins-Black.ttf);
 }
 
 @font-face {
     font-family: 'inter';
-    src: url();
+    src: url(/fonts/Inter-Italic.otf);
 }
 
 ul{
